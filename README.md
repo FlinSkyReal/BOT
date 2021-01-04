@@ -1,32 +1,29 @@
-# Bot Naga
-BOT WHATSAPP TERMUX BYE:DRAWL NAG
+# BOT FLIN SKY 
+BOT WHATSAPP BY : REY SEKHA
 
-### Alat dan Bahan
-Siapin alat dan bahannya.
+#Alat dan Bahan
+alat tempur
 ```bash
-> niat
-> 2 handphone (1 buat jalanin sc, 1 buat scan qr)
-> internet yang memadai, POKOKNYA 4G +
-> aplikasi whatsapp
+> 2 handphone (1 buat jalanin/scan kode)
+> 2 whatsapp buat akun bot lu 
 > aplikasi termux
-> kopi
+> Sabun :v
 ```
 
 ### Cara Installnya
 Sebelum lu jalanin sc nya install dulu lah.
 ```bash
-> kalo lu belum punya apk termux, download di playstore
-> masuk ke apk termux lalu ketik dibawah ini!
-> git clone https://github.com/Arya274/Arya-Bot
-> cd Arya-Bot
+> Commands
+> git clone https://github.com/FlinSky2/fs-bot
+> cd fs-bot
 > npm i
 > node index.js
-> Tinggal scan qr dah
+> Tinggal scan qr paham lah njir :v
 ```
 
 ## Features
 
-| NFQ BOT       |                Feature           |
+| FLIN SKY BOT       |                Feature           |
 | :-----------: | :--------------------------------: |
 |       ✅       | Sticker CreatoR                  |
 |       ✅       | Kick Grup                        |
@@ -46,7 +43,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Google Font                      |
 
 ## Special Thanks to
-* [`NUROTOMO`](https://github.com/Nurotomo)
+* [`Rey sekha`](https://github.com/FlinSky/fsbot)
 
 ### SOSMED
-* Youtube: Drawl Nag
+* Instagram : _sekhaa
