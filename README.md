@@ -1,8 +1,7 @@
 # BOT FLIN SKY 
 BOT WHATSAPP BY : REY SEKHA
 
-#Alat dan Bahan
-alat tempur
+#Alat Tempur
 ```bash
 > 2 handphone (1 buat jalanin/scan kode)
 > 2 whatsapp buat akun bot lu 
