@@ -788,10 +788,11 @@ client.on('group-participants-update', async (anu) => {
 				    client.blockUser (`${body.slice(9)}@c.us`, "remove")
 					client.sendMessage(from, `!, ! ${body.slice(9)}@c.us`, text)
 				break
-				case 'leave': 
-				if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply(mess.only.ownerB)
-				await client.client.leaveGroup(from, 'bay', groupId)
+				case 'leave':
+            if (!isGroupMsg) return client.reply(from, 'Perintah ini hanya bisa di gunakan dalam group', id)
+            if (!isGroupAdmins) return client.reply(from, 'Perintah ini hanya bisa di gunakan oleh admin group', id)
+            await client.sendText(from,'bay ajg').then(() => client.leaveGroup(groupId))
+            break
                     break
 				case 'bc': 
 					if (!isOwner) return reply(' *ANDA SIAPA* ?') 
@@ -904,7 +905,7 @@ client.on('group-participants-update', async (anu) => {
 						mentions(`... @${mentioned[0].split('@')[0]} ...`, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
-					break	
+					break
 			     	case 'kick':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
