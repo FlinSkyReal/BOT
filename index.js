@@ -46,11 +46,11 @@ const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
-    XBOT: '❉AmpibI❉', 
-    instagram: 'https://instagram.com/affis_saputro123', 
-    nomer: 'wa.me/6282334297175',
+    FSBOT: '❉Flin Sky❉', 
+    instagram: 'https://instagram.com/_sekhaa', 
+    nomer: 'wa.me/6281246460730',
     youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', 
-    whatsapp: 'Comming soon', 
+    whatsapp: 'wa.me/6281246460730', 
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -154,8 +154,8 @@ client.on('group-participants-update', async (anu) => {
 				wait: '❬❗❭ 𝗪𝗔𝗜𝗧, 𝗹𝗮𝗴𝗶 𝗽𝗿𝗼𝘀𝗲𝘀',
 				success: '️❬ ✔ ❭ 𝘀𝘂𝗰𝗰𝗲𝘀𝘀 🖤',
 				error: {
-					stick: 'Yah gagal ;(, coba ulangi ^_^',
-					Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
+					stick: 'gagal ;(, coba ulangi ^_^',
+					Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱'
 				},
 				only: {
 					group: '❬❗❭ 𝗚𝗥𝗢𝗨𝗣 𝗢𝗡𝗟𝗬 ',
@@ -167,7 +167,7 @@ client.on('group-participants-update', async (anu) => {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6282334297175@s.whatsapp.net"] 
+			const ownerNumber = ["6281246460730@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
