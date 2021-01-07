@@ -31,8 +31,8 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Affis Admin\n' 
-            + 'ORG: Pengembang XBot;\n' 
+            + 'FN:Sekhaa\n' 
+            + 'ORG: Pengembang FlinSky;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=6281246460730:+62 812-4646-0730\n' 
             + 'END:VCARD' 
 prefix = '!'
@@ -77,7 +77,7 @@ const client = new WAConnection()
 
 client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(`[ ${time} ] QR code is ready, subrek dulu yak ambipi team`)
+   console.log(`[ ${time} ] QR code ready,dan Flin sky bot siap di gunakan`)
 })
 
 client.on('credentials-updated', () => {
@@ -150,18 +150,18 @@ client.on('group-participants-update', async (anu) => {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '❬❗❭ 𝗪𝗔𝗜𝗧, 𝗹𝗮𝗴𝗶 𝗽𝗿𝗼𝘀𝗲𝘀',
-				success: '️❬ ✔ ❭ 𝘀𝘂𝗰𝗰𝗲𝘀𝘀 ',
+				wait: '❬❗❭ proses ngab',
+				success: '️❬ ✔ ❭ sukses ngab ',
 				error: {
 					stick: 'gagal ;(, coba ulangi',
-					Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱'
+					Iv: 'hmmm'
 				},
 				only: {
-					group: '❬❗❭ 𝗚𝗥𝗢𝗨𝗣 𝗢𝗡𝗟𝗬 ',
-					ownerG: '❬❗❭ 𝗢𝗪𝗡𝗘𝗥 𝗢𝗡𝗟𝗬 ',
-					ownerB: '❬❗❭  𝗢𝗪𝗡𝗘𝗥 𝗢𝗡𝗟𝗬 ',
-					admin: '❬❗❭ 𝗔𝗗𝗠𝗜𝗡 𝗢𝗡𝗟𝗬 ',
-					Badmin: '❬❗❭ 𝗕𝗢𝗧 𝗛𝗔𝗥𝗨𝗦 𝗝𝗔𝗗𝗜 𝗔𝗗𝗠𝗜𝗡 '
+					group: '❬❗❭ ??? ',
+					ownerG: '❬❗❭ ...? ',
+					ownerB: '❬❗❭  ...? ',
+					admin: '❬❗❭ ...? ',
+					Badmin: '❬❗❭ ...? '
 				}
 			}
 
@@ -274,7 +274,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `𝗡𝗮𝗺𝗮 𝗯𝗼𝘁 : ${me.name}\n*𝗡𝗼𝗺𝗲𝗿 𝗯𝗼𝘁* : @${me.jid.split('@')[0]}\n*𝗣𝗿𝗲𝗳𝗶𝘅* : ${prefix}\n𝗧𝗼𝘁𝗮𝗹 𝗕𝗹𝗼𝗰𝗸 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 : ${blocked.length}\n𝗧𝗵𝗲 𝗯𝗼𝘁 𝗶𝘀 𝗮𝗰𝘁𝗶𝘃𝗲 𝗼𝗻 : ${kyun(uptime)}\n`
+					teks = `Name Bot : ${me.name}\n*pengembang* : @${me.jid.split('@')[0]}\n*commands* : ${prefix}\n*total number blocked* : ${blocked.length}\n*status online* : ${kyun(uptime)}\n`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -319,7 +319,7 @@ client.on('group-participants-update', async (anu) => {
 					var gh = body.slice(9)
 					var gbl1 = gh.split("|")[0];
 					var gbl2 = gh.split("|")[1];
-					if (args.length < 1) return reply('Teksnya mana um')
+					if (args.length < 1) return reply('contoh phlogo |asu|asu')
 					reply(mess.wait)
 					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/textpro?theme=pornhub&text1=${gbl1}&text2=${gbl2}`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
@@ -396,8 +396,8 @@ client.on('group-participants-update', async (anu) => {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6282334297175@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
+                    client.sendMessage('6281246460730@s.whatsapp.net', options, text, {quoted: mek})
+                    reply('sukses telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'ssweb':
 					if (args.length < 1) return reply('Urlnya mana om')
@@ -452,7 +452,7 @@ client.on('group-participants-update', async (anu) => {
 			    case 'nsfwblowjob':
 				    try {
 						if (!isNsfw) return reply('Nsfw tidak di aktifkan')
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
+						res = await fetchJson(`https://arugaz.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
@@ -463,7 +463,7 @@ client.on('group-participants-update', async (anu) => {
 			    case 'nsfwneko':
 				    try {
 						if (!isNsfw) return reply('Nsfw tidak di aktifkan')
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
+						res = await fetchJson(`https://arugaz.herokuapp.com/api/nsfwneko`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
 					} catch (e) {
@@ -474,7 +474,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'nsfwtrap':
 				    try {
 						if (!isNsfw) return reply('Nsfw tidak di aktifkan')
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
+						res = await fetchJson(`https://arugaz.herokuapp.com/api/nsfwtrap`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
 					} catch (e) {
@@ -509,7 +509,7 @@ client.on('group-participants-update', async (anu) => {
 					reply(anu.result)
 					break
                 case 'infogempa':
-                   anu = await fetchJson(`https://tobz-api.herokuapp.com/api/infogempa`, {method: 'get'})
+                   anu = await fetchJson(`https://arugaz.herokuapp.com/api/infogempa`, {method: 'get'})
                    if (anu.error) return reply(anu.error)
                    buff = await getBuffer(anu.map)
                    hasil = ` *potensi* \n ${anu.potensi} *lokasi* \n${anu.lokasi} *magnitude* \n${anu.magnitude} *koordinat* \n${anu.koordinat} *kedalaman* \n${anu.kedalaman}`
@@ -541,7 +541,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'ytmp4':
 					if (args.length < 1) return reply('Urlnya mana um?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
-					anu = await fetchJson(`https://st4rz.herokuapp.com/api/ytv2?url=${args[0]}`, {method: 'get'})
+					anu = await fetchJson(`https://arugaz.herokuapp.com/api/ytv2?url=${args[0]}`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = `*Title* : ${anu.title}`
 					thumb = await getBuffer(anu.thumb)
@@ -597,7 +597,7 @@ client.on('group-participants-update', async (anu) => {
 								fs.unlinkSync(media)
 							})
 					} else {
-						reply('𝗸𝗶𝗿𝗶𝗺 𝗳𝗼𝘁𝗼 𝗱𝗲𝗻𝗴𝗮𝗻 𝗰𝗲𝗽𝘁𝗶𝗼𝗻 ${prefix}𝗼𝗰𝗿')
+						reply('kirim gambar dengan caption ${prefix}ocr')
 					}
 					break
 				case 'stiker': 
@@ -654,13 +654,13 @@ client.on('group-participants-update', async (anu) => {
 							.toFormat('webp')
 							.save(ran)
 					} else {
-						reply(`Kirim gambar dengan caption ${prefix}sticker atau reply/tag gambar`)
+						reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar`)
 					}
 					break
 				case 'getses':
-            	if (!isOwner) return reply(mess.only.ownerB)
+		    if (!isOwner) return client.reply(from, 'gak usah kepo tod cuma owner yg bisa', id)
             const sesPic = await client.getSnapshot()
-            client.sendFile(from, sesPic, 'session.png', '^_^...', id)
+            client.sendFile(from, sesPic, 'session.png','nih bos!!', id)
             break	
 				case 'gtts':	
 				case 'tts':
