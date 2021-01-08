@@ -1,6 +1,6 @@
 <div align="center">
 
-# FLIN SKY-BOT WHATSAPP TERMUX
+# BOT-FS WHATSAPP TERMUX
 
 ### install
 
