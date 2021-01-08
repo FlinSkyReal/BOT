@@ -103,8 +103,6 @@ const help = (prefix) => {
 -➪ *${prefix}setpp*
 -➪ *${prefix}setprefix*
 
- *BOT BY _SEKHAA*
-
 
 `
 }
