@@ -24,4 +24,9 @@
 ```sh
 > node index.js
 ```
+### stop bot
+
+```sh
+> Ctrl+ z
+```
 
