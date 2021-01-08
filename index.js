@@ -35,7 +35,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG: Pengembang FlinSky;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=6281246460730:+62 812-4646-0730\n' 
             + 'END:VCARD' 
-prefix = '!'
+prefix = '.'
 blocked = []          
 
 /********** LOAD FILE **************/
