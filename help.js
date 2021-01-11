@@ -1,99 +1,81 @@
 
-const help = (prefix) => { 
-	return `                 
-❉ *Flin Sky Bot* ❉
+                                               help.js
 
-✯Tentang Bot
+const help = (prefix) => {
+        return `
+*Flin sky* | *whatsapp Bot*
 
--➪ *${prefix}owner*
--➪ *${prefix}donasi*
--➪ *${prefix}info*
--➪ *${prefix}botstat*
--➪ *${prefix}bug*
+*Flin Sky info*
 
-✯Maker
+-➪ *${prefix}owner* *info owner*
+-➪ *${prefix}donasi* *info donasi*
+-➪ *${prefix}info* *flin sky info*
+-➪ *${prefix}botstat* *botstat*
+-➪ *${prefix}bug* *report bug to owner*
 
--➪ *${prefix}ocr*
--➪ *${prefix}sticker*
--➪ *${prefix}tts*
--➪ *${prefix}toimg*
--➪ *${prefix}phlogo*
--➪ *${prefix}quotemaker*
--➪ *${prefix}ninjalogo*
--➪ *${prefix}glitch*
--➪ *${prefix}text3d*
+*flin sky maker*
 
-✯Kerang ajaib
+-➪ *${prefix}ocr* *image to text*
+-➪ *${prefix}sticker* *image to sticker*
+-➪ *${prefix}tts* *text to audio*
+-➪ *${prefix}toimg* *sticker to image*
+-➪ *${prefix}phlogo* *pornHub logo*
+-➪ *${prefix}quotemaker* *quotes maker*
+-➪ *${prefix}ninjalogo* *name ninja*
+-➪ *${prefix}glitch* *name glitch*
+-➪ *${prefix}text3d* *logo 3D*
 
--➪ *${prefix}kapankah*
--➪ *${prefix}apakah*
--➪ *${prefix}bisakah*
--➪ *${prefix}rate*
+*kerang ajaib*
 
-✯Fun
- 
--➪ *${prefix}meme*
--➪ *${prefix}memeindo*
--➪ *${prefix}hilih*
--➪ *${prefix}fitnah*
--➪ *${prefix}truth*
--➪ *${prefix}dare*
--➪ *${prefix}bucin*
--➪ *${prefix}persengay*
+-➪ *${prefix}kapankah* *optional*
+-➪ *${prefix}apakah* *optional*
+-➪ *${prefix}bisakah* *optional*
+-➪ *${prefix}rate* *optional*
 
-✯Anime 
+*flin sky fun menu*
 
--➪ *${prefix}loli*
--➪ *${prefix}nsfwloli*
--➪ *${prefix}anime*
--➪ *${prefix}randomanime*
--➪ *${prefix}randomhentai*
--➪ *${prefix}nsfwloli*
--➪ *${prefix}nsfwblowjob*
--➪ *${prefix}nsfwneko*
--➪ *${prefix}nsfwtrap*
+-➪ *${prefix}meme* *random meme*
+-➪ *${prefix}memeindo* *random meme indo*
+-➪ *${prefix}hilih* *hilih text*
+-➪ *${prefix}truth* *random truth*
+-➪ *${prefix}dare* *random dare*
+-➪ *${prefix}bucin* *random bucin*
+-➪ *${prefix}persengay* *rate gay*
 
-✯Media
 
--➪ *${prefix}tiktokstalk*
--➪ *${prefix}ytmp4*
+*flin sky media*
 
-✯Other
- 
--➪ *${prefix}ping*
--➪ *${prefix}shorturl*
--➪ *${prefix}fototiktok*
--➪ *${prefix}map*
--➪ *${prefix}kbbi*
--➪ *${prefix}artinama*
--➪ *${prefix}infogempa*
--➪ *${prefix}quotes*
--➪ *${prefix}cerpen*
--➪ *${prefix}lirik*
--➪ *${prefix}pokemon*
--➪ *${prefix}chord*
--➪ *${prefix}blocklist*
--➪ *${prefix}hidetag*
--➪ *${prefix}wolflogo*
--➪ *${prefix}lionlogo*
--➪ *${prefix}ssweb*
--➪ *${prefix}anjing*
--➪ *${prefix}indohot*
+-➪ *${prefix}tiktokstalk* *tik tok stalking*
+-➪ *${prefix}ytmp4* *dowloader youtube*
 
-✯Group
+*flin sky other menu*
 
--➪ *${prefix}tagall*
--➪ *${prefix}add* [+62xx]
--➪ *${prefix}group* [buka/tutup]
--➪ *${prefix}demote* [tag Admin]
--➪ *${prefix}promote* [tag Member]
--➪ *${prefix}kick*
--➪ *${prefix}listadmin*
--➪ *${prefix}simih* [1/0]
--➪ *${prefix}nsfw* [1/0]
+-➪ *${prefix}ping* *ping Bot*
+-➪ *${prefix}shorturl* *get your link*
+-➪ *${prefix}fototiktok* *tik tok random photo*
+-➪ *${prefix}map* *maps contoh map kalimantan*
+-➪ *${prefix}kbbi* *kamus besar bahasa indonesia*
+-➪ *${prefix}artinama* *artinama (rey)
+-➪ *${prefix}infogempa* *info gempa terkini*
+-➪ *${prefix}quotes* *random quotes
+-➪ *${prefix}lirik* *quoery lirik lagu*
+-➪ *${prefix}chord* *quoery chord guitar*
+-➪ *${prefix}blocklist* *list block*
+-➪ *${prefix}hidetag* *hidetag [text]*
+-➪ *${prefix}ssweb* *screen web*
+-➪ *${prefix}anjing* *random gambar anjing*
+
+*flin sky group menu
+
+-➪ *${prefix}add* [628xxx] *add partisipan*
+-➪ *${prefix}group*  *group tutup/buka*
+-➪ *${prefix}demote* *tag admin*
+-➪ *${prefix}promote* *tag member*
+-➪ *${prefix}kick*   *tag member*
+-➪ *${prefix}listadmin* *admin list*
 -➪ *${prefix}welcome* [1/0]
 
-✯Owner
+*owner menu*
 
 -➪ *${prefix}clearall*
 -➪ *${prefix}block*
@@ -103,11 +85,8 @@ const help = (prefix) => {
 -➪ *${prefix}setpp*
 -➪ *${prefix}setprefix*
 
+📣Have fun
 
 `
 }
 exports.help = help
-
-
-
-  
