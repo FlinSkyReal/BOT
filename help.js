@@ -5,11 +5,11 @@ const help = (prefix) => {
 
 _*Ｉｎｆｏｒｍａｔｉｏｎ*_
 
-*Bot name* = *FLIN sky*
-*Author*   = *Tn.RAR*
-*Owner*    = *Rey sekha* https://wa.me/6281246460730
-*Version*  = *v1.3*
-*run on*   = *Termux*
++ *Bot name* = *FLIN sky*
++ *Author*   = *Tn.RAR*
++ *Owner*    = *Rey sekha* https://wa.me/6281246460730
++ *Version*  = *v1.3*
++ *run on*   = *Termux*
 
 _*Ｆｌｉｎ Ｓｋｙ ｉｎｆｏ*_
 
