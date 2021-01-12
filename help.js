@@ -1,5 +1,4 @@
                                           
-
 const help = (prefix) => {
         return `
 *Flin sky* | *whatsapp Bot*
