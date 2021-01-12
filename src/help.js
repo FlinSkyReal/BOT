@@ -3,7 +3,15 @@ const help = (prefix) => {
         return `
  ════ _*FLIN SKY BOT *_ ════
 
-_*Flin Sky info*_
+_*Ｉｎｆｏｒｍａｔｉｏｎ*_
+
++ *Bot name* = *FLIN sky*
++ *Author*   = *Tn.RAR*
++ *Owner*    = *Rey sekha* https://wa.me/6281246460730
++ *Version*  = *v1.3*
++ *run on*   = *Termux*
+
+_*Ｆｌｉｎ Ｓｋｙ ｉｎｆｏ*_
 
 + *${prefix}owner* ```info owner```
 + *${prefix}donasi* ```info donasi```
@@ -11,7 +19,7 @@ _*Flin Sky info*_
 + *${prefix}botstat* ```botstat```
 + *${prefix}bug* ```report bug to owner```
 
-_*flin sky maker*_
+_*ｆｌｉｎ ｓｋｙ ｍａｋｅｒ*_
 
 + *${prefix}sticker* ```image to sticker```
 + *${prefix}tts* ```text to audio```
@@ -20,14 +28,14 @@ _*flin sky maker*_
 + *${prefix}quotemaker* ```quotes maker```
 + *${prefix}text3d* ```logo 3D```
 
-_*kerang ajaib*_
+_*ｋｅｒａｎｇ ａｊａｉｂ*_
 
 + *${prefix}kapankah* ```optional```
 + *${prefix}apakah* ```optional```
 + *${prefix}bisakah* ```optional```
 + *${prefix}rate* ```optional```
 
-_*flin sky fun menu*_
+_*ｆｌｉｎ ｓｋｙ ｆｕｎ ｍｅｎｕ*_
 
 + *${prefix}meme* ```random meme```
 + *${prefix}memeindo* ```random meme indo```
@@ -38,12 +46,12 @@ _*flin sky fun menu*_
 + *${prefix}persengay* ```rate gay```
 
 
-_*flin sky media*_
+_*ｆｌｉｎ ｓｋｙ ｍｅｄｉａ*_
 
 + *${prefix}tiktokstalk* ```tik tok stalking```
 + *${prefix}ytmp4* ```dowloader youtube```
 
-_*flin sky other menu*_
+_*ｆｌｉｎ ｓｋｙ ｏｔｈｅｒ ｍｅｎｕ*_
 
 + *${prefix}shorturl* ```get your link```
 + *${prefix}fototiktok* ```tik tok random photo```
@@ -59,7 +67,7 @@ _*flin sky other menu*_
 + *${prefix}ssweb* ```screen web```
 + *${prefix}anjing* ```random gambar anjing```
 
-_*flin sky group menu*_
+_*ｆｌｉｎ ｓｋｙ ｇｒｏｕｐ ｍｅｎｕ*_
 
 + *${prefix}add* ```[628xxx]add partisipan```
 + *${prefix}group*  ```group tutup/buka```
@@ -72,7 +80,7 @@ _*flin sky group menu*_
 + *${prefix}setdesc ```set deskripsi group```
 + *${prefix}welcome* ```welcome [1/0]```
 
-_*owner menu*_
+_*ｏｗｎｅｒ ｍｅｎｕ*_
 
 + *${prefix}clearall* ```clear all chats```
 + *${prefix}block* ```bloked partisipans```
