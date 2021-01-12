@@ -11,8 +11,8 @@
 ```
 ```sh
 > apt update && apt upgrade
-> git clone https://github.com/FlinSky2/whatsapp
-> cd whatsapp
+> git clone https://github.com/FlinSky2/flinsky
+> cd flinsky
 > npm i -g cwebp 
 > npm i node-tesseract-ocr 
 > npm i -g ytdl
