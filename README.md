@@ -5,8 +5,8 @@
 
 ```sh
 > apt update && apt upgrade
-> git clone https://github.com/FlinSkyReal/flin12
-> cd flin12
+> git clone https://github.com/FlinSkyReal/flinTermux12
+> cd flinTermux12
 > npm i 
 > npm i got
 > bash install.sh
