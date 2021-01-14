@@ -174,7 +174,7 @@ client.on('group-participants-update', async (anu) => {
 			const groupId = isGroup ? groupMetadata.jid : ''
 			const groupMembers = isGroup ? groupMetadata.participants : ''
 			const groupDesc = isGroup ? groupMetadata.desc : ''
-            const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
+                        const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 			const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 			const isGroupAdmins = groupAdmins.includes(sender) || false
 			const isWelkom = isGroup ? welkom.includes(from) : false
@@ -355,6 +355,17 @@ client.on('group-participants-update', async (anu) => {
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
+                case 'ytvid':
+					if (args.length < 1) return reply('Urlnya mana um?')
+					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
+					anu = await fetchJson(`https://st4rz.herokuapp.com/api/ytv2?url=${args[0]}`, {method: 'get'})
+					if (anu.error) return reply(anu.error)
+					teks = `*Title* : ${anu.title}`
+					thumb = await getBuffer(anu.thumb)
+					client.sendMessage(from, thumb, image, {quoted: mek, caption: teks})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.title}.mp4`, quoted: mek})
+					break
                 case 'lionlogo':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(10)
