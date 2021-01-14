@@ -49,7 +49,7 @@ _*ｆｌｉｎ ｓｋｙ ｆｕｎ ｍｅｎｕ*_
 _*ｆｌｉｎ ｓｋｙ ｍｅｄｉａ*_
 
 + *.tiktokstalk* 
-+ *.ytmp4* 
++ *.ytvid* [ link YouTube ]
 
 _*ｆｌｉｎ ｓｋｙ ｏｔｈｅｒ ｍｅｎｕ*_
 
@@ -78,6 +78,7 @@ _*ｆｌｉｎ ｓｋｙ ｇｒｏｕｐ ｍｅｎｕ*_
 + *.listadmin* 
 + *.infogc* group info
 + *.setdesc*
++ *.setname* 
 + *.welcome* *welcome [1/0]*
 
 _*ｏｗｎｅｒ ｍｅｎｕ*_
