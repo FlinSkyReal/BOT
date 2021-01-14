@@ -74,6 +74,9 @@ _*ｆｌｉｎ ｓｋｙ ｇｒｏｕｐ ｍｅｎｕ*_
 + *.demote* *tag admin*
 + *.promote* *tag member*
 + *.kick*   tag member
++ *.tagme* 
++ *.mention*
++ *.bar*
 + *.kudeta* 
 + *.listadmin* 
 + *.infogc* group info
