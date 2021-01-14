@@ -264,6 +264,13 @@ client.on('group-participants-update', async (anu) => {
             case 'tareekses':
                 client.sendMessage(from, './sound'+'/tarekses.mp3', {quoted: mek, ptt:true})
                 break
+            case 'setname':
+                if (!isGroup) return reply(mess.only.group)
+			    if (!isGroupAdmins) return reply(mess.only.admin)
+				if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+                client.groupUpdateSubject(from, `${body.slice(9)}`)
+                client.sendMessage(from, 'Succes, Ganti Nama Grup', text, {quoted: mek})
+                break
             case 'welotka':
             case 'welutka':
             case 'kangcopet':
