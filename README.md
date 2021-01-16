@@ -1,6 +1,8 @@
 
 # BOT-FS TERMUX V13
 
+#[group WA](https://chat.whatsapp.com/JG4yqRO7jIx508PeRNXowL)
+
 ### install
 
 ```sh
