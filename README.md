@@ -1,16 +1,17 @@
 
 # BOT-FS TERMUX V13
 
-# [group WA](https://chat.whatsapp.com/JG4yqRO7jIx508PeRNXowL)
+# INFORMASI LAIN
+[group WA](https://chat.whatsapp.com/JG4yqRO7jIx508PeRNXowL)
 
-# [FLIN SKY](https://wa.me/message/ZJNPUGXUUKUJG1)
+[FLIN SKY](https://wa.me/message/ZJNPUGXUUKUJG1)
 
 ### install
 
 ```sh
 > apt update && apt upgrade
-> git clone https://github.com/FlinSkyReal/flinWABOT
-> cd flinWABOT
+> git clone https://github.com/FlinSkyReal/sky
+> cd sky
 > npm i 
 > npm i got
 > bash install.sh
