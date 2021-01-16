@@ -2,98 +2,84 @@
 const help = (prefix) => {
         return `
  
- *════ FLIN SKY BOT ════*
+ ```FLIN SKY BOT``` || *By _sekhaa*
 
-_*Ｉｎｆｏｒｍａｔｉｏｎ*_
+🗒️ ```menu total``` : *56*
+🔎 ```status Menu``` : *false*
+💎 ```info limit user ``` : *unlimited*
+📍 ```Pause command``` : *5sec*
+❕ ```prefix``` : *. Titik*
 
-+ *Bot name* = *FLIN Sky*
-+ *Author*   = *Tn.RAR*
-+ *Owner*    = *Rey sekha*
-+ *Version*  = *v1.3*
+📃```FLIN INFO```
+    ├ ```.owner``` *creator*
+    ├ ```.donasi``` *amal*
+    ├ ```.info``` *Flin info*
+    ├ ```.bug``` *report Bug*
+   
+📃```FLIN MAKER```
+    ├ ```.sticker```
+    ├ ```.tts``` 
+    ├ ```.phlogo```
+    ├ ```.quotemaker```
+    ├ ```.text3d```
 
-_*Ｆｌｉｎ Ｓｋｙ ｉｎｆｏ*_
+📃```FLIN KERANG```
+    ├ ```.kapankah```
+    ├ ```.apakah```
+    ├ ```.bisakah```
+    ├ ```.rate```
 
-+ *.owner*
-+ *.donasi* 
-+ *.info* 
-+ *.botstat* 
-+ *.bug* 
+📃```FLIN FUN```
+   ├ ```.meme```
+   ├ ```.memindo```
+   ├ ```.hilih```
+   ├ ```.truth```
+   ├ ```.dare```
+   ├ ```.bucin```
+   ├ ```.persengay```
 
-_*ｆｌｉｎ ｓｋｙ ｍａｋｅｒ*_
+📃```FLIN MEDIA/DOWNLOAD```
+   ├ ```.tiktokstalk``` *@username*
+   ├ ```.ytvid``` *link YouTube max 5mb* 
 
-+ *.sticker* 
-+ *.tts* 
-+ *.toimg* 
-+ *.phlogo* 
-+ *.quotemaker* 
-+ *.text3d* 
+📃```FLIN OTHERMENU```
+   ├ ```.shorturl``` *your url*
+   ├  ```.fototiktok```
+   ├ ```.map``` *daerah/kota*
+   ├ ```.kbbi``` *kbbi query* 
+   ├ ```.artinama``` *your name*
+   ├ ```.infogempa``` *BMKG INFO* 
+   ├ ```.quotes``` *random quotes*
+   ├ ```.lirik``` *query*
+   ├ ```.chord``` *guitar chord*
+   ├ ```.blocklist```
+   ├ ```.ssweb``` *url website*
+   ├ ```.anjing``` 
 
-_*ｋｅｒａｎｇ ａｊａｉｂ*_
+📃```FLIN GROUP```
+   ├ ```.hidetag```
+   ├ ```.add``` *6283xxxx*
+   ├ ```.kick``` *@tag members*
+   ├ ```.promote``` *@tag members*
+   ├ ```.demote``` *@tag admins*
+   ├ ```.tagme```
+   ├ ```.mention```
+   ├ ```.setname``` *set group name*
+   ├ ```.setdesc``` *set deskripsi group*
+   ├ ```.bar```
+   ├ ```.kudeta```
+   ├ ```.listadmin``` *admin list*
+   ├ ```.infogc``` *group info*
 
-+ *.kapankah* 
-+ *.apakah* 
-+ *.bisakah* 
-+ *.rate* 
+📃```FLIN OWNER```
+   ├ ```.block```
+   ├ ```.unblock```
+   ├ ```.bc```
+   ├ ```.clone```
+   ├ ```.setpp```
+   ├ ```.setprefix```
 
-_*ｆｌｉｎ ｓｋｙ ｆｕｎ ｍｅｎｕ*_
-
-+ *.meme* 
-+ *.memeindo* 
-+ *.hilih* 
-+ *.truth*
-+ *.dare* 
-+ *.bucin* 
-+ *.persengay* 
-
-
-_*ｆｌｉｎ ｓｋｙ ｍｅｄｉａ*_
-
-+ *.tiktokstalk* 
-+ *.ytvid* [ link YouTube ]
-
-_*ｆｌｉｎ ｓｋｙ ｏｔｈｅｒ ｍｅｎｕ*_
-
-+ *.shorturl* 
-+ *.fototiktok* 
-+ *.map*
-+ *.kbbi* 
-+ *.artinama*
-+ *.infogempa* 
-+ *.quotes*
-+ *.lirik* 
-+ *.chord* 
-+ *.blocklist* 
-+ *.hidetag* 
-+ *.ssweb* 
-+ *.anjing*
-
-_*ｆｌｉｎ ｓｋｙ ｇｒｏｕｐ ｍｅｎｕ*_
-
-+ *.add* *[628xxx]add partisipan*
-+ *.group*  *group tutup/buka*
-+ *.demote* *tag admin*
-+ *.promote* *tag member*
-+ *.kick*   tag member
-+ *.tagme* 
-+ *.mention*
-+ *.bar*
-+ *.kudeta* 
-+ *.listadmin* 
-+ *.infogc* group info
-+ *.setdesc*
-+ *.setname* 
-+ *.welcome* *welcome [1/0]*
-
-_*ｏｗｎｅｒ ｍｅｎｕ*_
-
-+ *.clearall* 
-+ *.block*
-+ *.unblock* 
-+ *.bc* 
-+ *.clone* 
-+ *.setprefix* 
-
- ════ _*POWERED BY TN.RAR*_ ════
+*copyright* *by* _*@_sekhaa*_ || *2021*
 
 
 `
