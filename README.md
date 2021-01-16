@@ -1,8 +1,8 @@
 
 # BOT-FS TERMUX V13
 
-#[group WA](https://chat.whatsapp.com/JG4yqRO7jIx508PeRNXowL)
-
+[group WA](https://chat.whatsapp.com/JG4yqRO7jIx508PeRNXowL)
+[FLIN SKY]https://wa.me/message/ZJNPUGXUUKUJG1)(
 ### install
 
 ```sh
