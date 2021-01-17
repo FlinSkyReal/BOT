@@ -2,7 +2,7 @@
 const help = (prefix) => {
         return `
  
- ```FLIN SKY BOT``` || *By _sekhaa*
+ *FLIN SKY BOT* || *By _sekhaa*
 
 🗒️ ```menu total``` : *56*
 🔎 ```status Menu``` : *false*
