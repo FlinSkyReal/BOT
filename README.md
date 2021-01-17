@@ -1,5 +1,18 @@
-
-# BOT-FS TERMUX V13
+<p align="center">
+<img src="https://i.pinimg.com/474x/9e/37/f0/9e37f0dbf23c2862e73c1ea3531edca9.jpg?s=400&u=1ceaf43bd7e0fdb53563faf97ca77e275936168d&v=4" width="128" height="128"/>
+</p>
+<p align="center">
+<a href="#"><img title="Rarxrey BOT" src="https://img.shields.io/badge/Rarxrey BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/FlinSky"><img title="Author" src="https://img.shields.io/badge/Author-RAR X REY-black.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="https://github.com/FlinSkyReal/followers"><img title="Followers" src="https://img.shields.io/github/followers/FlinSkyReal?color=blue&style=flat-square"></a>
+<a href="https://github.com/FlinSkyReal/rar-rey-whatsapp/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/FlinSkyReal/rar-rey-whatsapp?color=red&style=flat-square"></a>
+<a href="https://github.com/FlinSkyReal/rar-rey-whatsapp/network/members"><img"></a>
+<a href="https://github.com/FlinSkyReal/rar-rey-whatsapp/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/FlinSkyReal/rar-rey-whatsapp?label=Watchers&color=blue&style=flat-square"></a>
+</p>
 
 # INFORMASI LAIN
 [group WA](https://chat.whatsapp.com/JG4yqRO7jIx508PeRNXowL)
