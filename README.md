@@ -23,8 +23,8 @@
 
 ```sh
 > apt update && apt upgrade
-> git clone https://github.com/FlinSkyReal/termuxBOT
-> cd termuxBOT
+> git clone https://github.com/FlinSkyReal/BOT
+> cd BOT
 > npm i 
 > npm i got
 > bash install.sh
