@@ -2,85 +2,168 @@
 const help = (prefix) => {
         return `
  
- *FLIN SKY BOT* || *By _sekhaa*
+ Hi i am Flin sky 👋
 
-🗒️ *menu total* : *56*
-🔎 *status Menu* : *false*
-💎 *info limit user* : *unlimited only*
-📍 *Pause command* : *5sec*
-❕ *prefix* : *. Titik*
+_*jangan lupa follow Instagram Mimin ok @sekhaa*
 
-📃*FLIN INFO*
-    ├ *.owner* creator
-    ├ *.donasi* amal
-    ├ *.info* Flin info
-    ├ *.bug* report Bug
-   
-📃*FLIN MAKER*
-    ├ *.sticker* image to stiker
-    ├ *.tts* teks to sound/google sound
-    ├ *.phlogo* phlogo maker
-    ├ *.quotemaker* quotes maker
-    ├ *.text3d* tekx3d maker 
+_*Fun*_
+├ *${prefix}truth*
+├ *${prefix}dare*
+├ *${prefix}quotes*
+├ *${prefix}hilih*
+├ *${prefix}watak*
+├ *${prefix}tebakgambar* [teks]
+├ *${prefix} tiktokstalk* [@username]
+├ *${prefix}flin* [text]
+├ *${prefix}artinama* [nama anda]
+├ *${prefix}anjing* 
+├ *${prefix}resep* [nama masakan]
+├ *${prefix}pokemon*
+├ *${prefix}hoby* 
+└ *${prefix}tts*
 
-📃*FLIN KERANG*
-    ├ *.kapankah*
-    ├ *.apakah*
-    ├ *.bisakah*
-    ├ *.rate*
+_*Kerang*_
+├ *${prefix}apakah*
+├ *${prefix}bisakah*
+├ *${prefix}kapankah*
+└ *${prefix}rate*
 
-📃*FLIN FUN*
-   ├ *.meme*
-   ├ *.memindo*
-   ├ *.hilih*
-   ├ *.truth*
-   ├ *.dare*
-   ├ *.bucin*
-   ├ *.persengay*
+_*Wibu*_
+├ *${prefix}loli*
+├ *${prefix}animeloli*
+├ *${prefix}anime*
+├ *${prefix}randomcry*
+├ *${prefix}randomanime*
+├ *${prefix}waifu*
+├ *${prefix}nakonime*
+├ *${prefix}wait*
+└ *${prefix}pokemon*
 
-📃*FLIN MEDIA/DOWNLOAD*
-   ├ *.tiktokstalk* @username
-   ├ *.ytvid* link YouTube max 5mb
 
-📃*FLIN OTHERMENU*
-   ├ *.shorturl* your url
-   ├ *.fototiktok
-   ├ *.map* daerah/kota
-   ├ *.kbbi* kbbi query
-   ├ *.artinama* your name
-   ├ *.infogempa* BMKG INFO
-   ├ *.quotes* random quotes
-   ├ *.lirik* query
-   ├ *.chord* guitar chord
-   ├ *.blocklist*
-   ├ *.ssweb* url website
-   ├ *.anjing* 
+_*Nsfw Menu*_
+├ *${prefix}randomhentai*
+├ *${prefix}nsfwblowjob*
+├ *${prefix}nsfwtrap*
+└ *${prefix}nsfwneko*
 
-📃*FLIN GROUP*
-   ├ *.hidetag*
-   ├ *.add* 6283xxxx
-   ├ *.kick* @tag members
-   ├ *.promote* @tag members
-   ├ *.demote* @tag admins
-   ├ *.tagme*
-   ├ *.mention*
-   ├ *.setname* set group name
-   ├ *.setdesc* set deskripsi group
-   ├ *.bar*
-   ├ *.kudeta*
-   ├ *.listadmin* admin list
-   ├ *.infogc* group info
+_*Sticker*_
+├ *${prefix}sticker*
+├ *${prefix}stiker*
+├ *${prefix}s*
+├ *${prefix}toimg*
+├ *${prefix}tstiker*
 
-📃*FLIN OWNER*
-   ├ *.block*
-   ├ *.unblock*
-   ├ *.bc*
-   ├ *.clone*
-   ├ *.setpp*
-   ├ *.setprefix*
+_*Search*_
+├ *${prefix}infogempa*
+├ *${prefix}ytsearch* [yt search]
+├ *${prefix}lirik* [judul lagu]
+├ *${prefix}chord* [judul lagu]
+├ *${prefix}wiki* [love]
+├ *${prefix}shorturl*
+├ *${prefix}ssweb* [link]
+├ *${prefix}fototiktok* 
+├ *${prefix}map* [kota]
+├ *${prefix}indohot* 
+├ *${prefix}kbbi* [kamus]
+└ *${prefix}infoghitub* 
 
-*copyright* *by* _*@_sekhaa*_ || *2021*
 
+_*Group*_
+├ *${prefix}mention*
+├ *${prefix}tagme*
+├ *${prefix}lgc*
+├ *${prefix}setdesc*
+├ *${prefix}setname*
+├ *${prefix}kick* [tag]
+├ *${prefix}add* [628xxx]
+├ *${prefix}promote* [tag]
+├ *${prefix}demote* [tag]
+├ *${prefix}group* [buka]
+├ *${prefix}group* [tutup]
+├ *${prefix}fordward* [teks]
+├ *${prefix}seticon* 
+├ *${prefix}infogc*
+├ *${prefix}tagme*
+├ *${prefix}nsfw* [1/0]
+├ *${prefix}welcome* [1/0]
+├ *${prefix}fitnah* fitnah pesan bot|psn target|@tag target
+├ *${prefix}listadmin*
+└ *${prefix}*
+
+_*Textpro*_
+├ *${prefix}cloud* [text]
+├ *${prefix}write* [text]
+├ *${prefix}langit* [text|]
+├ *${prefix}pantai* [text]
+├ *${prefix}failball* [text]
+├ *${prefix}stone* [text]
+├ *${prefix}old* [text]
+├ *${prefix}lizer* [teks]
+├ *${prefix}lava* [teks]
+├ *${prefix}vintage* [teks]
+├ *${prefix}glitch* [teks]
+├ *${prefix}smoke* [teks]
+├ *${prefix}blodd* [teks]
+├ *${prefix}phlogo* [teks]
+├ *${prefix}captain* [teks]
+├ *${prefix}glue* [teks]
+├ *${prefix}cup* [teks]
+├ *${prefix}paper* [teks]
+├ *${prefix}shadow* [teks]
+├ *${prefix}marvelogo* [teks]
+├ *${prefix}luxury* [teks]
+├ *${prefix}silverbutton* [teks]
+├ *${prefix}water* [teks]
+├ *${prefix}blue* [teks]
+├ *${prefix}coll* [teks]
+├ *${prefix}firetext* [teks]
+├ *${prefix}maker* [teks|teks2]
+├ *${prefix}neon* [teks]
+├ *${prefix}glow* [teks]
+├ *${prefix}dark* [teks]
+├ *${prefix}pink* [teks]
+├ *${prefix}epep* [teks]
+├ *${prefix}minion* [teks]
+├ *${prefix}thunder* [teks]
+├ *${prefix}pubglogo* [teks]
+├ *${prefix}quotemaker* [teks]
+
+├ *${prefix}text3d* [teks]
+└ *${prefix}matrix* [text]
+
+_*Primbon*_
+├ *${prefix}artinama* [Rey sekha]
+└ *${prefix}infonom* [082xxx]
+
+_*Others*_
+├ *${prefix}nugas* 
+├ *${prefix}ocr*
+├ *${prefix}meme*
+├ *${prefix}memindo*
+├ *${prefix}ttp*
+├ *${prefix}bot*
+└ *${prefix}report*
+
+_*Download*_
+├ *${prefix}fb* [link]
+├ *${prefix}play* [nama lagu]
+├ *${prefix}ytmp3* [link]
+├ *${prefix}ytmp* [link]
+├ *${prefix}ytmp4* [link]
+├ *${prefix}joox* [judul lagu] 
+└ *${prefix}tiktok* [link] 
+
+_*Owner*_
+├ *${prefix}kudeta*
+├ *${prefix}bc*
+├ *${prefix}leave*
+├ *${prefix}clearall*
+├ *${prefix}clone*
+├ *${prefix}block*
+├ *${prefix}unblock*
+├ *${prefix}setprefix*
+╽
+╰╼ *BOT BY REY SEKHA*
 
 `
 }
