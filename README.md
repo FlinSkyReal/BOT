@@ -23,8 +23,8 @@
 
 ```sh
 > apt update && apt upgrade
-> git clone https://github.com/FlinSkyReal/BOT
-> cd BOT
+> git clone https://github.com/FlinSkyReal/BOTWACAP
+> cd BOTWACAP
 > npm i 
 > npm i got
 > bash install.sh
