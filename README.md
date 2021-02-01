@@ -44,3 +44,17 @@
 > Ctrl+ z
 ```
 
+## SOSMED GW <img height="30" src="https://github.com/ArugaZ/ArugaZ/blob/main/images/instagram.svg?raw=true"></a>&nbsp;&nbsp;
+
+* [`Youtube`](https://yutube.com/ReyNS)
+* [`Instagram`](https://instagram.com/_sekhaa)
+* [`WhatsApp`](https://wa.me/+6281246460730)
+
+## THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">* [`Arugaz`](https://arugaz.my.id/api)
+* [`VINZ`](https://api.zeks.xyz/)
+* [`Tobz`](https://tobz-api.herokuapp.com/api)
+* [`Mankbarbar`](https://mhankbarbar.tech/api)
+* [`Melodi API`](http://api-melodicxt-3.herokuapp.com/api)
+* [`Jojo API`](https://docs-jojo.herokuapp.com/api)
+
+
