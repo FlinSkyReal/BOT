@@ -1,17 +1,21 @@
+## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Hai i am Rey sekha
 <p align="center">
+<img align="right" alt="GIF" height="125px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
+</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png?s=400&u=1ceaf43bd7e0fdb53563faf97ca77e275936168d&v=4" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="FLINSKY BOT TERMUX" src="https://img.shields.io/badge/FLINSKY BOT TERMUX-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="FLIN-SKY BOT TERMUX" src="https://img.shields.io/badge/FLINSKY BOT TERMUX-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/FlinSky"><img title="Author" src="https://img.shields.io/badge/Author-REY SEKHA-black.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/FlinSkyReal/followers"><img title="Followers" src="https://img.shields.io/github/followers/FlinSkyReal?color=blue&style=flat-square"></a>
-<a href="https://github.com/FlinSkyReal/termuxBOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/FlinSkyReal/termuxBOT?color=red&style=flat-square"></a>
-<a href="https://github.com/FlinSkyReal/termuxBOT/network/members"><img"></a>
-<a href="https://github.com/FlinSkyReal/termuxBOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/FlinSkyReal/termuxBOT?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/FlinSkyReal/flin-sky-whatsapp-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/FlinSkyReal/flin-sky-whatsapp-BOT?color=red&style=flat-square"></a>
+<a href="https://github.com/FlinSkyReal/flin-sky-whatsapp-BOT/network/members"><img"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFlinSkyReal%2Fflin-sky-whatsapp-BOT&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/FlinSkyReal/flin-sky-whatsapp-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/FlinSkyReal/flin-sky-whatsapp-BOT?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
 ### INFORMASI LAIN
